@@ -8,11 +8,36 @@
   <packaging>jar</packaging>
 
   <name>new-jee-skeleton</name>
-  <url>http://maven.apache.org</url>
+  <description>new-jee-skeleton provides a skeleton for new jee projects.</description>
+  <inceptionYear>2013</inceptionYear>
+  <issueManagement>
+  	<system>Github</system>
+  	<url>https://github.com/redpill/new-jee-skeleton/issues</url>
+  </issueManagement>
+  <url>https://github.com/redpill/new-jee-skeleton</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <scm>
+  	<connection>scm:git:git://github.com/redpill/new-jee-skeleton.git</connection>
+  	<developerConnection>scm:git:git:@github.com:redpill/new-jee-skeleton.git</developerConnection>
+  	<url>https://github.com/redpill/new-jee-skeleton</url>
+  </scm>
+  
+  <developers>
+  	<developer>
+  		<email>leandropincini@gmail.com</email>
+  		<id>redpill</id>
+  		<name>Leandro Pincini</name>
+  		<roles>
+  			<role>Developer</role>
+  		</roles>
+  		<timezone>-3</timezone>
+  		<url>https://github.com/redpill</url>
+  	</developer>
+  </developers>
 
   <dependencies>
     <dependency>
